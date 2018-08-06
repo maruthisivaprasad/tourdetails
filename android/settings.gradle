@@ -1,0 +1,3 @@
+rootProject.name = 'testmanagement'
+
+include ':app'

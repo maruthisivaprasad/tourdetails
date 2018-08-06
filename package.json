@@ -1,0 +1,28 @@
+{
+  "name": "testmanagement",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "babel-loader": "^7.1.5",
+    "babel-preset-react-native": "2.1.0",
+    "react": "16.4.1",
+    "react-native": "0.55.4",
+    "react-native-windows": "0.55.0-rc.0",
+    "react-navigation": "^2.11.2",
+    "rnpm-plugin-windows": "^0.2.8"
+  },
+  "devDependencies": {
+    "@babel/core": "7.0.0-beta.47",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "23.4.2",
+    "jest": "23.4.2",
+    "react-test-renderer": "16.4.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
